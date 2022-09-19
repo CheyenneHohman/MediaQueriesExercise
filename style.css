@@ -45,8 +45,10 @@ h1 {
 
 @media (orientation: portrait) {
     body {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 }
 
@@ -59,14 +61,14 @@ h1 {
 }
 
 @media (max-width: 800px) {
-    h1 {
-        /* color: navy; */
+    #two {
+        color: navy;
     }
 }    
 
 @media (max-width: 600px) {
-    h1 {
-        /* color: orange; */
+    #two {
+        color: orange;
     }
 }    
 
@@ -75,4 +77,3 @@ h1 {
         font-style: italic;
     }
 }
-
